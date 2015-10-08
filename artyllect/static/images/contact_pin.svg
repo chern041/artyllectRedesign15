@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="54" height="64" viewBox="0 0 54 64">
+  <defs>
+    <style>
+
+      .cls-3 {
+        stroke: #332e35;
+        stroke-linecap: round;
+        stroke-width: 4px;
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="pinsvg">
+    <path d="M9.050,48.117 C3.898,41.021 2.000,34.048 2.000,27.000 C2.000,13.193 13.193,2.000 27.000,2.000 C40.807,2.000 52.000,13.193 52.000,27.000 C52.000,40.807 36.948,62.000 27.000,62.000 C23.521,62.000 19.452,59.456 15.620,55.558 " id="path-1" class="cls-3" fill-rule="evenodd"/>
+    <circle id="circle-1" class="cls-3" cx="27" cy="23" r="8"/>
+  </g>
+</svg>

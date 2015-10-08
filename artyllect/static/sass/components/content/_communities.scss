@@ -1,0 +1,22 @@
+.communities{
+	.vertical-align{
+		@include vertical-align(50%);
+	}
+	.social-icon{
+		display:inline-block;
+		width:22%;
+		margin: 0 2.5% 0 0;
+		img{width:100%;}
+	}
+	p{
+		text-align: justify;
+		font-family: 'utsaahbold';
+		font-size: 2.6vw;
+		width:80%;
+		margin: 0 auto 1em;
+	}
+	ul{
+		margin: 0 auto;
+	 	width: 90%;
+	}
+}

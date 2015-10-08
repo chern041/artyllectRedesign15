@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+
+      .cls-3 {
+        stroke: #332e35;
+        stroke-width: 4px;
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: #332e35;
+        stroke-linecap: round;
+        stroke-width: 4px;
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="doorsvg">
+    <path d="M36.000,2.000 C36.000,2.000 60.000,13.000 60.000,13.000 C61.105,13.000 62.000,13.895 62.000,15.000 C62.000,15.000 62.000,49.000 62.000,49.000 C62.000,50.104 61.105,51.000 60.000,51.000 C60.000,51.000 36.000,62.000 36.000,62.000 C33.791,62.000 32.000,60.209 32.000,58.000 C32.000,58.000 32.000,5.999 32.000,5.999 C32.000,3.791 33.791,2.000 36.000,2.000 Z" id="path-1" class="cls-3" fill-rule="evenodd"/>
+    <ellipse id="ellipse-1" class="cls-3" cx="40" cy="32" rx="2" ry="4"/>
+    <path d="M31.964,50.000 C19.566,50.000 6.000,50.000 6.000,50.000 C3.362,49.935 2.000,48.209 2.000,46.000 C2.000,46.000 2.000,18.000 2.000,18.000 C2.000,15.791 3.077,14.000 6.000,14.000 C6.000,14.000 11.658,14.000 22.123,14.000 " id="path-2" class="cls-5" fill-rule="evenodd"/>
+  </g>
+</svg>

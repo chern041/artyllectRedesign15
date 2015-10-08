@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-width: 4px;
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g>
+    <path d="M36.000,2.000 L60.000,13.000 C61.105,13.000 62.000,13.895 62.000,15.000 L62.000,49.000 C62.000,50.105 61.105,51.000 60.000,51.000 L36.000,62.000 C33.791,62.000 32.000,60.209 32.000,58.000 L32.000,5.999 C32.000,3.791 33.791,2.000 36.000,2.000 Z" class="cls-1"/>
+    <ellipse cx="40" cy="32" rx="2" ry="4" class="cls-2"/>
+    <path d="M31.964,50.000 C19.566,50.000 6.000,50.000 6.000,50.000 C3.362,49.935 2.000,48.209 2.000,46.000 L2.000,18.000 C2.000,15.791 3.077,14.000 6.000,14.000 C6.000,14.000 11.658,14.000 22.123,14.000 " class="cls-3"/>
+  </g>
+</svg>

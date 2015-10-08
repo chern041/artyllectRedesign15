@@ -1,0 +1,13 @@
+.intro{
+	background:#f83a00;
+	color:#FFF;
+	.vertical-align{
+		@include vertical-align(50%);
+	}
+	p{
+		@include vertical-align(40%);
+		text-align: justify;
+		font-family: 'utsaahbold';
+		font-size: 2.6vw;
+	}
+}

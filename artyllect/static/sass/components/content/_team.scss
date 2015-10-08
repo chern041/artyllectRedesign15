@@ -1,0 +1,47 @@
+.team{
+	h2{width: 91.5%;}
+	.vertical-align{
+		@include vertical-align(40%);
+		margin: 0 auto;
+    	width: 90%;
+    	left: 3.5%;
+	}
+	.team-container{
+		margin:0;
+		padding:0;
+	}
+	
+	.back{margin-top: 10%;}
+
+	$teamMemberDimension: 16%;
+	.team-member{
+		display:inline-block;
+		width:$teamMemberDimension;
+		position:relative;
+		margin-bottom: 0.5%;
+		height: 160px;
+		text-align:center;
+		cursor: pointer;
+		h3{font-size:1vw;}
+		p{font-size:1vw;}
+		img{
+			width:55%;
+			margin: 0 12.5%;
+			vertical-align:middle;
+		}
+		.certified{
+			background-size: 100%;
+			width: 30%;
+			height: 20%;
+			display: inline-block;
+			bottom: 0;
+			position: absolute;
+			z-index: 100;
+			left: 14%;
+			&.adobe{background: url("../images/certified_expert.png") no-repeat scroll 0 50% transparent;}
+		}
+
+		
+	}
+	
+}

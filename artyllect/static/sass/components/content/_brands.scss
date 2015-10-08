@@ -1,0 +1,22 @@
+.brands{
+	.vertical-align{
+		@include vertical-align(40%);
+    	left: 3.5%;
+	}
+	ol{
+		display:table;
+		margin:0;
+		padding:0;
+	}
+	$logoDimensions: 16%;
+	.logo-client{
+		display:inline-block;
+		height: $logoDimensions;
+		width: $logoDimensions;
+		img{
+			width:35%;
+			margin:0 35%;
+			vertical-align:middle;
+		}
+	}
+}
