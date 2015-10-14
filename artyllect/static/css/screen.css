@@ -267,31 +267,31 @@ ul, li, li {
 .team .back {
   margin-top: 10%;
 }
-/* line 17, ../sass/components/content/_team.scss */
+/* line 18, ../sass/components/content/_team.scss */
 .team .team-member {
   display: inline-block;
-  width: 16%;
+  width: 12%;
   position: relative;
   margin-bottom: 0.5%;
   height: 160px;
   text-align: center;
   cursor: pointer;
 }
-/* line 25, ../sass/components/content/_team.scss */
+/* line 26, ../sass/components/content/_team.scss */
 .team .team-member h3 {
   font-size: 1vw;
 }
-/* line 26, ../sass/components/content/_team.scss */
+/* line 27, ../sass/components/content/_team.scss */
 .team .team-member p {
   font-size: 1vw;
 }
-/* line 27, ../sass/components/content/_team.scss */
+/* line 28, ../sass/components/content/_team.scss */
 .team .team-member img {
-  width: 55%;
+  width: 50%;
   margin: 0 12.5%;
   vertical-align: middle;
 }
-/* line 32, ../sass/components/content/_team.scss */
+/* line 33, ../sass/components/content/_team.scss */
 .team .team-member .certified {
   background-size: 100%;
   width: 30%;
@@ -302,7 +302,7 @@ ul, li, li {
   z-index: 100;
   left: 14%;
 }
-/* line 41, ../sass/components/content/_team.scss */
+/* line 42, ../sass/components/content/_team.scss */
 .team .team-member .certified.adobe {
   background: url("../images/certified_expert.png") no-repeat scroll 0 50% transparent;
 }

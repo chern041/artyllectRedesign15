@@ -13,7 +13,8 @@
 	
 	.back{margin-top: 10%;}
 
-	$teamMemberDimension: 16%;
+
+	$teamMemberDimension: 12%;
 	.team-member{
 		display:inline-block;
 		width:$teamMemberDimension;
@@ -25,7 +26,7 @@
 		h3{font-size:1vw;}
 		p{font-size:1vw;}
 		img{
-			width:55%;
+			width:50%;
 			margin: 0 12.5%;
 			vertical-align:middle;
 		}
