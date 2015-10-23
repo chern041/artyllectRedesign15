@@ -243,6 +243,11 @@ ul, li, li {
   vertical-align: middle;
 }
 
+/* line 1, ../sass/components/content/_team.scss */
+.team {
+  /*Small tablet break point*/
+  /*Big tablet break point*/
+}
 /* line 2, ../sass/components/content/_team.scss */
 .team h2 {
   width: 91.5%;
@@ -305,6 +310,31 @@ ul, li, li {
 /* line 42, ../sass/components/content/_team.scss */
 .team .team-member .certified.adobe {
   background: url("../images/certified_expert.png") no-repeat scroll 0 50% transparent;
+}
+@media only screen and (max-width: 599px) {
+  /* line 49, ../sass/components/content/_team.scss */
+  .team .team-member {
+    width: 45%;
+    height: 45%;
+    margin: 53px 53px;
+    font-size: 200px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  /* line 58, ../sass/components/content/_team.scss */
+  .team .team-member {
+    width: 25%;
+    height: 25%;
+    margin: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+  /* line 66, ../sass/components/content/_team.scss */
+  .team .team-member {
+    width: 15%;
+    height: 15%;
+    margin: 50px;
+  }
 }
 
 /* line 2, ../sass/components/content/_communities.scss */

@@ -44,5 +44,29 @@
 
 		
 	}
-	
+
+	@media only screen and (max-width: 599px){
+	.team-member{
+		width:45%;
+		height:45%;
+		margin: 53px 53px;
+		font-size: 200px;
+	}
+	}
+/*Small tablet break point*/
+@media only screen and (min-width: 600px) and (max-width: 767px){
+		.team-member{
+		width:25%;
+		height:25%;
+		margin:50px;
+		}
+	}
+/*Big tablet break point*/
+@media only screen and (min-width: 768px) and (max-width: 999px){
+		.team-member{
+		width:15%;
+		height:15%;
+		margin: 50px;
+		}
+	}	
 }
