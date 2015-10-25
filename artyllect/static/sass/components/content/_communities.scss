@@ -20,3 +20,30 @@
 	 	width: 90%;
 	}
 }
+/*Mobile break point*/
+@media only screen and (max-width: 599px){
+	.communities{
+		.social-icon{
+			width: 80%;
+			img{width: 80%;}
+		}
+	}
+}
+/*Small tablet break point*/
+@media only screen and (min-width: 600px) and (max-width: 767px){
+	.communities{
+		.social-icon{
+			width: 60%;
+			img{width: 60%;}
+		}
+	}
+}
+/*Big tablet break point*/
+@media only screen and (min-width: 768px) and (max-width: 999px){
+	.communities{
+		.social-icon{
+			width: 40%;
+			img{width: 60%;}
+		}
+	}
+}
