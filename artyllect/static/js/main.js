@@ -170,7 +170,6 @@
 
 		if($(window).width() > 767){
 			card.flip({trigger: "hover"});
-
 			$(window).scroll(function(){
 		    	scrollPos = $(this).scrollTop();
 				scrollSectionRange();
@@ -180,6 +179,7 @@
 		else{
 			brands.css('height', 'auto');
 			team.css('height', 'auto');
+			communities.css('height', 'auto');
 		}
 
 

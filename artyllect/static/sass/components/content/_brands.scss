@@ -22,7 +22,11 @@ $logoDimensions: 16%;
 /*Mobile break point*/
 @media only screen and (max-width: 599px){
 	.brands{
-		.vertical-align{transform:none;}
+		padding-top: 100px;
+		.vertical-align{
+			transform:none;
+			left:0;
+		}
 		.logo-client{
 			width: 30%;
 			margin-bottom:50px;
