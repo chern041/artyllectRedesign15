@@ -1,14 +1,13 @@
+$logoDimensions: 16%;
 .brands{
 	.vertical-align{
 		@include vertical-align(40%);
     	left: 3.5%;
 	}
 	ol{
-		display:table;
 		margin:0;
 		padding:0;
 	}
-	$logoDimensions: 16%;
 	.logo-client{
 		display:inline-block;
 		height: $logoDimensions;
@@ -23,11 +22,11 @@
 /*Mobile break point*/
 @media only screen and (max-width: 599px){
 	.brands{
+		.vertical-align{transform:none;}
 		.logo-client{
 			width: 30%;
+			margin-bottom:50px;
 			img{width: 60%;}
-			margin-top:2px;
-			margin-bottom:2px;
 		}
 	}
 }
@@ -37,8 +36,6 @@
 		.logo-client{
 			width: 25%;
 			img{width: 55%;}
-			margin-top:5px;
-			margin-bottom:5px;
 		}
 	}
 }
@@ -48,8 +45,6 @@
 		.logo-client{
 			width: 20%;
 			img{width: 40%;}
-			margin-top:3px;
-			margin-bottom:3px;
 		}
 	}
 }

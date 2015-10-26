@@ -56,7 +56,6 @@
 			//clickedMainNav = true;
 	        body.scrollTo(((windowHeight * navItemIndex)+(mainHeaderHeight*2)), 0,
     		{
-    			
     			onAfter: function(){
     				dotIndex = navItemIndex;
     				activeNavIndicator();
@@ -171,11 +170,16 @@
 
 		if($(window).width() > 767){
 			card.flip({trigger: "hover"});
+
 			$(window).scroll(function(){
 		    	scrollPos = $(this).scrollTop();
 				scrollSectionRange();
 				lastScrollTop = scrollPos;
 		    });
+		}
+		else{
+			brands.css('height', 'auto');
+			team.css('height', 'auto');
 		}
 
 
