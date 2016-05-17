@@ -1,4 +1,4 @@
-$teamMemberDimension: 12%;
+$teamMemberDimension: 12.5%;
 .team{
 	h2{width: 91.5%;}
 	.vertical-align{
@@ -11,7 +11,20 @@ $teamMemberDimension: 12%;
 		margin:0;
 		padding:0;
 	}
-	.back{margin-top: 10%;}
+	.description{
+      background: -moz-linear-gradient(top,  rgba(183,32,37,0.8) 0%, rgba(183,32,37,0.8) 100%);
+      background: -webkit-linear-gradient(top,  rgba(183,32,37,0.8) 0%,rgba(183,32,37,0.8) 100%);
+      background: linear-gradient(to bottom,  rgba(183,32,37,0.8) 0%,rgba(183,32,37,0.8) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccb72025', endColorstr='#ccb72025',GradientType=0 );
+      color: #FFF;
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    display:none;
+	}
+	.back{
+		margin-top: 30%;
+	}
 	.team-member{
 		display:inline-block;
 		vertical-align: top;
@@ -21,12 +34,13 @@ $teamMemberDimension: 12%;
 		height: 160px;
 		text-align:center;
 		cursor: pointer;
-		h3{font-size:1vw;}
-		p{font-size:1vw;}
+		p{
+			font-size: 1.2vw;
+    		margin: 0 0 1.5em 0;
+		}
 		img{
-			width:50%;
-			margin: 0 12.5%;
-			vertical-align:middle;
+			width:65%;
+			margin: 20% 12.5% 0;
 		}
 		.certified{
 			background-size: 100%;

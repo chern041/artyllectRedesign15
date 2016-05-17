@@ -1,14 +1,28 @@
+::selection {
+  background: #F2D500;
+}
+::-moz-selection {
+  background: #F2D500;
+}
 body{
-	background:#e4f2f7;
+	//background:#e4f2f7;
+    background: #FFF;
+    color: #595959;
 }
 h2{
-	color:#332e35;
-	text-align:center;
-	font-size:70px;
-	font-size:4vw;
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'utsaahbold';
+}
+h3{
+	margin:0;
+	font-size:1.4vw;
 	font-family: 'utsaahbold';
 }
-a{text-decoration:none;}
+a{
+    text-decoration:none;
+    color: #595959;
+}
 p{
 	font-family: 'utsaahregular';
 	font-size:24px;

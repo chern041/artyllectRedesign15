@@ -1,18 +1,15 @@
 .intro{
-	background:#f83a00;
 	color:#FFF;
+    .poster-bg{top:90px;}
 	.vertical-align{
-		@include vertical-align(50%);
+		@include vertical-align(10%);
 	}
 	p{
-		@include vertical-align(40%);
+        font-family: 'open_sanssemibold';
 		text-align: justify;
-		font-family: 'utsaahbold';
-		font-size: 2.6vw;
+		font-size: 1.46vw;
 	}
 }
-
-
 /*Mobile break point*/
 @media only screen and (max-width: 599px){
 	.intro{

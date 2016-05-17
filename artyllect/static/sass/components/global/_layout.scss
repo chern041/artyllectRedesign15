@@ -5,12 +5,25 @@
 	padding:0 5%;
 }
 
+.poster-bg {
+    /* Set rules to fill background */
+    min-height: 85%;
+    min-width: 1024px;
 
-@mixin vertical-align($intro-vertical-align) {
-	$negative-align : unquote('-'+ $intro-vertical-align);
-  	position: relative;
-  	top: $intro-vertical-align;
-  	-webkit-transform: translateY($negative-align);
-  	-ms-transform: translateY($negative-align);
-  	transform: translateY($negative-align);
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    .poster-bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
 }
